@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Poiret+One&display=swap');
+
+body{
+    margin: 0;
+}
+
+#header{
+    background-color: #fafafa;
+    padding: 0.5%;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    margin-top: 0;
+    overflow: auto;
+}
+
+#introlinks{
+    width: 30%;
+    text-decoration: none;
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(115%);
+}
+ #introlinks a{
+    text-decoration: none;
+ }
+
+#introlinks h3{
+    font-family: "Poiret One", cursive;
+    display: inline;
+    margin: auto 2%;
+    color: black;
+    text-transform: uppercase;
+}
+
+#logo{
+    width:40%;
+    font-family: "Cinzel Decorative", cursive;
+    text-align: center;
+    float: left;
+}
+
+#logo h1{
+    margin: 3% 0;
+}
+
+input{
+    border-radius: 15px;
+    border: 1px;
+}
+
+#searchhelp{
+    width: 30%;
+    float: left;
+    text-align: center;
+    top: 50%;
+    transform: translateY(115%);
+}
+
+.sch{
+    font-family: "Poiret One", cursive;
+    display: inline;
+    margin: auto 2%;
+    color: black;
+    text-transform: uppercase;
+    
+}
+
+#searchhelp input{
+    text-indent: 10%;
+}
+
+#searchhelp button{
+    border-style: none;
+    background-color: #fafafa;
+}
+
+#searchhelp button:hover{
+    text-decoration: underline;
+}
+
+#shelf{
+    overflow: auto;
+    display: block;
+    width: 98%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.productcontainers{
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    /* background-color: aqua; */
+    margin: 5% 1%;
+    text-align: center;
+    font-family: "Poiret One", cursive;
+    font-weight: 700;
+}
+
+.productcontainers a{
+    text-decoration: none;
+}
+
+.productpics{
+    width: 90%;
+    display: inline-block;
+}
+
+.names, .prices, .itemsleft{
+    color: black;
+    margin: 4%;
+}
+
+.names{
+    font-size: 1.2em;
+}
+
+.itemsleft{
+    font-size: 0.7em;
+}
+
+.addbtns{
+    font-family: "Poiret One", cursive;
+    font-weight: 700;
+    width:100%;
+    text-transform: uppercase;
+    padding: 3%;
+    color: white;
+    background-color: black;
+}
+
+.addbtns:hover{
+    color:black;
+    background-color: white;
+}
+
+.imgcontainers{
+    margin: auto 5%;
+    width: 40%;
+    float: left;
+}
+
+.imgcontainers img{
+    width: 90%;
+    margin-bottom: 4%;
+}
+
+.infocontainers{
+    width: 40%;
+    float: left;
+    font-family: "Poiret One", cursive;
+    margin: auto 5%;
+    text-align: justify;
+}
+
+
+/* .productcontainers{
+
+} */
+
+
+
